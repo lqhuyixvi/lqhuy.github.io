@@ -1,0 +1,399 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lqHuy</title>
+	<!--css-->
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<!--font awesome-->
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--other css-->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/w3-slideshow.css" type="text/css">
+    <link rel="stylesheet" href="css/w3-contactform.css" type="text/css">
+    <!--
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    -->
+	<!--customize scroll bar-->
+			<style>
+            /* width */
+            ::-webkit-scrollbar {
+              width: 5px;
+            }
+            
+            /* Track */
+            ::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+              border-radius: 5px;
+            }
+             
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+              background: #01a3ba;
+              box-shadow: 2px 2px rgba(0,0,0,0.1);
+              border-radius: 5px;
+            }
+            
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+              background: #ff7937; 
+            }
+            </style>
+	
+</head>
+
+<body>
+    <div id="panel">
+        <a href="https://facebook.com/huy.laiquoc.3720" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <br>
+        <a href="https://www.pinterest.com/cnmdes" target="_blank"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+        <br>
+        <a href="https://www.deviantart.com/cnmdes" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
+        <br><br>
+        <p style="font-family:'Black Ops One', serif;">DARK<br>MODE</p>
+        <label class="switch">
+            <input type="checkbox" id="darkmode" onclick="darkmodeFunction()">
+            <span class="slider"></span>
+        </label>
+    </div>
+	<div class="hcontainer">
+		<div id="header">
+        	<div class="logo">
+            	<img src="img/brand_gray.png">
+            </div>
+            <div class="main-menu">
+	            <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#sec2" >about</a></li>
+                    <li><a href="#sec3">works</a></li>
+                    <li><a href="#sec4">contact</a></li>
+                </ul>
+             </div>
+        </div>
+        <div class="section-home">
+        	<div id="home-left">
+            	<div id="matrix">
+                	<div class="matrix-column">
+                    	<p>
+                        <a href="#">P</a><br>
+                        <a href="#">F</a><br>
+                        <a href="#">i</a>
+                        </p>
+                    </div>
+                    <div class="matrix-column">
+                    	<p>
+                        <a href="#">O</a><br>
+                        <a href="#">O</a><br>
+                        <a href="#">O</a>
+                        </p>
+                    </div>
+                    <div class="matrix-column">
+                   		<p>
+                        <a href="#">R</a><br>
+                        <a href="#">L</a><br>
+                        <a href="#">.</a>
+                        </p>
+                    </div>
+                    <div class="matrix-column" id="matrix-last">
+                        <p>
+                        <a href="#">T</a><br>
+                        <a href="#">.</a><br>
+                        <a href="#">.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-right">
+            	<div class="matrix-column">
+                    <p id="name">H<br>U<br>Y</p>
+                </div>
+                <img src="img/lqHuyavatar.png" alt="avatar">
+            </div>
+            
+        </div>
+        <div class="section" id="sec2">
+        	<div class="section-title">
+            	<h1>ABOUT<br>..</h1>
+            </div>
+            
+            <div class="content">
+            	<!-- LIGHTBOX -->
+                    <div class="lb1">
+                        <a class="example-image-link" href="images/img2.jpg" data-lightbox="roadtrip" data-title="Huy - năm 2020.">
+                            <img class="example-image" src="images/img2.jpg" alt="1"/>
+                        </a>                 
+                    </div>
+                <!-- LIGHTBOX -->
+                <div class="linebox"></div>
+                <div class="content-text">
+                	<p class="content-text-p">
+                    	<b>Lại Quốc Huy</b>,<br><br>
+                        có thể gọi là Huy, là Quy, Qi, Oui..<br>
+                        sinh năm 996 của thiên niên kỷ trước,<br>
+                        tính theo Đông phương là tuổi Bính Tý,<br>
+                        năm nay tròn hai con giáp.<br><br>
+                        Huy thích học và trải nghiệm những cái mới mẻ.<br>
+                        Huy cũng phạm rất nhiều sai lầm<br>
+                        Huy trưởng thành qua sai lầm của mình.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="section" id="sec3">
+        	<div class="section-title">
+            	<h1>WORKS<br>..</h1>
+            </div>
+            <div class="content">
+            
+            	<!-- SLIDESHOW -->
+                	<div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <!--
+                            	<div class="numbertext">3 / 3</div>
+                            	<img src="img/img_nature_wide.jpg" style="width:100%">
+                                <div class="text">Caption Three</div>
+                            -->
+                            <div class="slideshow-content">
+                            	<div class="img-holder">
+                            		<img src="img/product-1.jpg" alt="orange">
+                                </div>
+                                <div class="work-description">
+                                	<h2>chụp <span style="color:#f6b300">hình</span></h2>
+                                    <p>
+                                    	Huy thích thì Huy chụp thôi.<br><br>
+                                    	Huy từng xài qua các loại máy chụp kỹ thuật số Canon, Nikon, Sony.<br>
+                                        Huy có kinh nghiệm khi chụp ngoại cảnh lẫn studio<br>
+                                        và biết điều chỉnh các loại máy móc trong studio.<br><br>
+                                        Huy còn biết quay phim và có thể chụp máy ảnh analog nữa<br>
+                                        (hay gọi là "máy film" đó).
+                                        <br><br><br>
+                                        ______________
+                                    </p>
+                                    <div class="accent" id="accent-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mySlides fade">
+                            <!--
+                            	<div class="numbertext">3 / 3</div>
+                            	<img src="img/img_nature_wide.jpg" style="width:100%">
+                                <div class="text">Caption Three</div>
+                            -->
+                            <div class="slideshow-content">
+                            	<div class="img-holder">
+                            		<img src="img/product-2.jpg" alt="orange">
+                                </div>
+                                <div class="work-description">
+                                	<h2>sửa <span style="color:#b50b7b">hình</span></h2>
+                                    <p>
+                                    	Huy chỉnh sửa hình ảnh theo yêu cầu chủ yếu bằng Adobe Photoshop.<br><br>
+                                        Và nhờ có thời gian làm việc với các hãng thời trang lớn,<br>
+                                        Huy có thể nhận định và hoàn thành (gần như là) mọi yêu cầu về sửa ảnh<br>
+                                        từ bình thường cho đến high-end retouch.<br><br>
+                                        Adobe Lightroom cũng thường xuyên được Huy tận dụng.
+                                        <br><br><br>
+                                        ______________
+                                    </p>
+                                    <div class="accent" id="accent-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mySlides fade">
+                            <!--
+                            	<div class="numbertext">3 / 3</div>
+                            	<img src="img/img_nature_wide.jpg" style="width:100%">
+                                <div class="text">Caption Three</div>
+                            -->
+                            <div class="slideshow-content">
+                            	<div class="img-holder">
+                            		<img src="img/product-3.jpg" alt="orange">
+                                </div>
+                                <div class="work-description">
+                                	<h2>lên <span style="color:#f10703">ý tưởng</span></h2>
+                                    <p>
+                                    	Nhờ khoảng thời gian 'va' và 'chạm' trong công việc,<br>
+                                        Huy có thể phác thảo và hoạch định concept cho một buổi chụp<br>
+                                        hoặc mục tiêu nào đó trong chiến lược digital marketing.<br><br>
+                                        Hợp tác khi làm việc nhóm, độc lập khi làm một mình<br>
+                                        và có thể sketch tay cũng là những điều Huy tự tin.
+                                        <br><br><br>
+                                        ______________
+                                    </p>
+                                    <div class="accent" id="accent-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mySlides fade">
+                            <!--
+                            	<div class="numbertext">3 / 3</div>
+                            	<img src="img/img_nature_wide.jpg" style="width:100%">
+                                <div class="text">Caption Three</div>
+                            -->
+                            <div class="slideshow-content">
+                            	<div class="img-holder">
+                            		<img src="img/product-4.jpg" alt="orange">
+                                </div>
+                                <div class="work-description">
+                                	<h2>thiết <span style="color:#0f713d">kế</span></h2>
+                                    <p>
+                                    	Vì là một graphic designer,<br>
+                                        Huy hiểu tầm quan trọng của những kiến thức nền tảng<br>
+                                        và không ngừng tiếp thu học hỏi những cái mới.<br><br>
+                                        Chưa có quá nhiều kinh nghiệm nhưng Huy luôn cố gắng<br>
+                                        để tạo ra những sản phẩm hoàn thiện cho nhu cầu của khách hàng.
+                                        <br><br><br>
+                                        ______________
+                                    </p>
+                                    <div class="accent" id="accent-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <!--
+                    <br>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
+                    -->
+                <!-- SLIDESHOW -->
+             
+            </div>
+        </div>
+        
+        
+
+        <div class="section" id="sec4">
+        	<div class="section-title">
+            	<h1>CONTACT<br>..</h1>
+            </div>
+            <div class="content">
+           		<div class="linebox"></div>
+                <div class="content-text">
+                	<p class="content-text-p">
+                    	Vui lòng liên hệ với Huy qua<br><br>
+                        <em>laiquochuyixvi @ gmail.com</em><br>
+                        <em>(+84) 77 3508 122</em><br><br>
+                        hoặc viết lời nhắn vào ô bên cạnh
+                    </p>
+                </div>
+                <!-- FORM -->
+                	
+                    
+                    <div class="form-container">
+                        <form action="mailto:laiquochuyixvi@gmail.com">
+                            
+                            <label for="subject">OBENCANH</label>
+                            <textarea id="subject" name="subject" placeholder="Vui lòng nhập vào đây.."></textarea>
+                            
+                            <!-- <label for="signature">Ký tên</label> -->
+                            <input type="text" id="signature" name="firstname" placeholder="Ký tên..">
+                            
+                            <input type="submit" value="SEND">
+                        
+                        </form>
+                    </div>
+                    
+                    
+                    
+                    
+                <!-- FORM -->
+            </div>
+        </div>
+    </div><!----------------hcontainer---------------->
+	<div id="footer">
+        <p>
+        	<span style="color:#555">_____</span>
+            <br>
+            lq<span style="color:#555">H</span>uy
+            <br>
+            <span style="color:#e8e8e8">2020</span>
+		</p>
+    </div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- LIGHTBOX-->
+		<script>
+                    lightbox.option({
+                      'resizeDuration': 100,
+                      'wrapAround': false
+                    })
+                    </script>
+                    <script>
+                            $(document).ready(function(){
+                          $(".owl-carousel").owlCarousel();
+                        });
+        </script>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+    <!-- LIGHTBOX-->
+    
+    
+    
+    <!-- SLIDESHOW -->
+    	<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>
+    <!-- SLIDESHOW -->
+    
+    <!-- DARKMODE -->
+    	<script type="text/javascript">
+			function darkmodeFunction() {
+			  // Get the checkbox
+			  var checkBox = document.getElementById("darkmode");
+			  var elements = document.getElementsByClassName("content-text-p")
+					
+			  // If the checkbox is checked, change background color
+			  if (checkBox.checked == true){
+				document.body.style.background = "#111";
+				document.getElementById("header").style.background = "#111";
+				document.getElementById("home-left").style.background = "#0d0d0d";
+				for (var i = 0; i < elements.length; i++) {
+						elements[i].style.background="#111";
+					}
+				
+			  } else {
+				document.body.style.background = "#f4f4f4";
+				document.getElementById("header").style.background = "#f4f4f4";
+				document.getElementById("home-left").style.background = "#d5d5d5";
+				for (var i = 0; i < elements.length; i++) {
+						elements[i].style.background="#f4f4f4";
+					}
+			  }
+			}
+		</script>
+	<!-- DARKMODE -->
+</body>
+</html>

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #e8e8e8; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 15px; /* Add a top margin */
+  margin-bottom: 30px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	font-family: 'Black Ops One', sans-serif;
+	text-align:center;
+  color: gray;
+  padding: 8px 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #01a3ba;
+  border: 1px solid white;
+  color:white;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+	width:700px;
+	right:300px;
+	font-family: Verdana, serif;
+	font-size:.8em;
+	text-align:center;
+	color:gray;
+	border: solid 5px gray;
+  border-radius: 5px;
+  padding:50px;  
+}
+.form-container label{
+	font-family: 'Black Ops One', sans-serif;
+	font-size:2em;
+}
+#subject{
+	height:180px;
+	background:#f8f8f8;
+	font-style:oblique;
+	font-family:Verdana,serif;
+	font-size:.9em;
+}
+#signature{
+	background:#f8f8f8;
+	font-style:oblique;
+	font-family:Verdana,serif;
+	font-size:.9em;
+}
